@@ -12,3 +12,4 @@ install(TARGETS stlplus3
   LIBRARY DESTINATION lib
   ARCHIVE DESTINATION lib
 )
+install(FILES file_system.hpp portability_fixes.hpp wildcard.hpp DESTINATION include/stlplus3)
